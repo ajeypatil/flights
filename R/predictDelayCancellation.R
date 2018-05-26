@@ -23,7 +23,7 @@ predictDelayCancellation <- function(airline,origin_airport,destination_airport,
     return("[Unknown Destination Airport IATA_CODE]")
 
   if( ! flght_month %in% c(1,2,3,4,5,6,7,8,9,10,11,12) )
-    return("[Month input error")
+    return("[Month input error]")
 
   if( ! flght_day_of_week %in% c(1,2,3,4,5,6,7) )
     return("[Day of week input error]")
